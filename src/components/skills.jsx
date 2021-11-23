@@ -1,6 +1,6 @@
 export const Skills = (props) => {
   return (
-    <div id='services' className='text-center'>
+    <div id='skills' className='text-center'>
       <div className='container'>
         <div className='section-title'>
           <h2>My skills</h2>
