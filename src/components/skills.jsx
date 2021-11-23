@@ -1,13 +1,10 @@
-export const Services = (props) => {
+export const Skills = (props) => {
   return (
     <div id='services' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Our Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <h2>My skills</h2>
+          
         </div>
         <div className='row'>
           {props.data

@@ -41,7 +41,7 @@ export const Contact = (props) => {
               <div className='section-title'>
                 <h2>Get In Touch</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
+                  Please fill out the form below to send an email and I will
                   get back to you as soon as possible.
                 </p>
               </div>
@@ -127,8 +127,8 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
+                    <a href={props.data ? props.data.medium : '/'}>
+                      <i className='fa fa-medium'></i>
                     </a>
                   </li>
                   <li>
@@ -137,8 +137,13 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
+                    <a href={props.data ? props.data.github : '/'}>
+                      <i className='fa fa-github'></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.LinkedIn : '/'}>
+                      <i className='fa fa-linkedIn'></i>
                     </a>
                   </li>
                 </ul>
@@ -150,10 +155,8 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
+            &copy; 2021 Musa Opaluwa Portfolio{' '}
+
           </p>
         </div>
       </div>
